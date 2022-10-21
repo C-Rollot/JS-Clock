@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('polices/quicksand/Quicksand-Regular.otf');
+}
+
+@font-face {
+    font-family: digital7-italic;
+    src: url('polices/digital-7/digital-7\ \(italic\).ttf');
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: digital7-italic;
+    color: palegreen;
+    text-align: center;
+    height: 98vh;
+    border: 1px solid palegreen;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#time {
+    font-size: 150px;
+    max-height: 500px;
+    max-width: 1000px;
+    margin-top: 30vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#date {
+    font-size: 75px;
+}
